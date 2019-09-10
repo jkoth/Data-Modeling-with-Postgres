@@ -1,4 +1,4 @@
-ta Modeling with Postgres**
+# **Data Modeling with Postgres**
 ## **Project Summary**
 The project goal was to build a Postgres schema with the tables designed to optimize queries on song play analysis. Songs and User activity data are collected in the startup company, Sparkify’s music streaming app. Data is stored in JSON format and not easily available for analysis. As part of the solution, a five table Star schema was defined and built an ETL pipeline to transfer data from Songs and User activity files stored in the local directories to the tables. Utilized multiple Python modules to extract the data on local directories, transform them and load them to Postgres.
 
