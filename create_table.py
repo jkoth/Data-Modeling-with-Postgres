@@ -67,7 +67,7 @@ def main():
 
     try:
         cur, conn = create_database()
-        info("Sucessfully created database and retrieved associated connection and cursor")
+        info("Successfully created database and retrieved associated connection and cursor")
     except Exception as e:
         error(f"Error creating database or retrieving associated connection and cursor: {e}")
         exit()
